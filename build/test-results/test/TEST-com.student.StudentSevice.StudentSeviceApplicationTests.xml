@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.student.StudentSevice.StudentSeviceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-19T11:14:36" hostname="TTNPL-3750" time="0.681">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.student.StudentSevice.StudentSeviceApplicationTests" time="0.681"/>
+  <system-out><![CDATA[16:44:35.160 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.student.StudentSevice.StudentSeviceApplicationTests]: StudentSeviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:44:35.204 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.student.StudentSevice.StudentSeviceApplication for test class com.student.StudentSevice.StudentSeviceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-19T16:44:35.409+05:30  INFO 44108 --- [StudentSevice] [    Test worker] c.s.S.StudentSeviceApplicationTests      : Starting StudentSeviceApplicationTests using Java 17.0.12 with PID 44108 (started by murad in /home/murad/Downloads/StudentSevice)
+2024-09-19T16:44:35.410+05:30  INFO 44108 --- [StudentSevice] [    Test worker] c.s.S.StudentSeviceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-09-19T16:44:35.936+05:30 ERROR 44108 --- [StudentSevice] [    Test worker] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.31] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+2024-09-19T16:44:36.265+05:30  INFO 44108 --- [StudentSevice] [    Test worker] c.s.S.StudentSeviceApplicationTests      : Started StudentSeviceApplicationTests in 0.993 seconds (process running for 1.519)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
